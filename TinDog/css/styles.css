@@ -1,0 +1,182 @@
+
+/* MAIN */
+
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.padded-container{
+    padding: 7% 15%;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+
+/* TITLE */
+
+#title{
+  height: 90vh;
+  overflow: hidden;
+}
+
+.downloadbutton{
+  margin: 8% 3% 8% 0;
+}
+
+.title-image{
+  transform: rotate(25deg) translateX(100px) translateY(-45px);
+  width: 50%;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  overflow: hidden;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+
+/* FEATURES */
+
+.icon{
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.features{
+  color: #8f8f8f;
+}
+
+.feature-col{
+  padding: 4%;
+}
+
+
+/* TESTIMONIALS */
+
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonials-img{
+  width: 15%;
+  border-radius: 100%;
+}
+
+
+/* PRESS */
+
+#press{
+  background-color: #ef8172;
+  color: white;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* PRICING */
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* CALL TO ACTION */
+
+.ctabutton{
+  margin: 5% 1%;
+}
+
+
+/* FOOTER */
+.footer{
+  color: #8f8f8f;
+}
+
+.footer-icon{
+  padding: 1%;
+}
+
+
+/* HEADINGS */
+
+.big-heading{
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.med-heading{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.small-heading{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+/* SCREEN SIZE RESPONSIVENESS */
+
+@media (max-width: 1100px){
+  #title{
+    text-align: center;
+    height:auto;
+    overflow:visible;
+  }
+
+  .title-image{
+    transform: none;
+  }
+}
